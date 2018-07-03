@@ -1,0 +1,14 @@
+﻿create table cliente(
+ id serial,
+ nome varchar(30),
+ sobrenome varchar(50),
+ rg varchar(8),
+ cpf varchar(11),
+ endereco varchar(150),
+
+ constraint pk_cliente primary key (id)
+);
+
+select * from cliente;
+
+drop table cliente;
